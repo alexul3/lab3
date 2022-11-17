@@ -1,0 +1,89 @@
+html
+{
+    min-height: 100vh;
+}
+header .img-fluid
+{
+    width:232px; 
+    height:100px;
+}
+article .img-fluid
+{
+    height:250px;
+}
+article .img-fluid1
+{
+    height:250px;
+    width: 300px;
+}
+.owl
+{
+    width:300px;
+}
+.pdf-size
+{
+    width:70px; 
+}
+body
+{
+    display: grid;
+    grid-template-rows:auto 1fr auto;
+    min-height: 100vh;
+}
+.img-school
+{
+    margin-right: 1em;
+    float: start;
+}
+.Vnov
+{
+    margin-right: 1em;
+}
+.Vnov1
+{
+    margin-right: 1em;
+}
+.Cont
+{
+
+}
+@media only screen and (max-width: 800px) {
+    .owl {
+     display:none;
+ }
+}
+@media only screen and (max-width: 670px) {
+    .img-school
+    {
+        margin-right: 170px;
+    }
+}
+@media only screen and (max-width: 670px) {
+    .headers-problem
+    {
+        
+        flex-direction: column;
+    }
+    .navbar
+    {
+        align-items: flex-start !important;
+    }
+}
+@media only screen and (max-width: 463px) {
+    .Vnov
+    {
+        margin-right: 140px;
+    }
+}
+@media only screen and (max-width: 558px) {
+    .Vnov1
+    {
+        margin-right: 140px;
+    }
+}
+@media only screen and (max-width: 463px) {
+    .Cont
+    {
+        margin-right: 100px;
+    }
+}
