@@ -87,3 +87,12 @@ body
         margin-right: 100px;
     }
 }
+#banner img.hide{
+    visibility: hidden;
+    width: 500px;
+}
+#banner img.show{
+    visibility:visible;
+    width: 500px;
+
+}
